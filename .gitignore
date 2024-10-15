@@ -1,0 +1,57 @@
+## Ignore Visual Studio temporary files, build results, and
+## build directories
+## 
+## Recommended list from GitHub: https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
+
+## Ignore build outputs
+bin/
+obj/
+
+## Ignore Visual Studio folders
+.vscode/
+.vs/
+.idea/
+
+## Ignore user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.pdb
+*.log
+
+## Ignore NuGet packages
+*.nupkg
+packages/
+.nuget/
+
+## Ignore publish files
+wwwroot/
+out/
+PublishProfiles/
+app.publish/
+
+## Ignore Rider files (if applicable)
+.idea/
+
+## Ignore Resharper files (if applicable)
+_ReSharper*/
+*.DotSettings.user
+
+## Ignore folders for local tools
+.localtoolspath
+.tools/
+
+## Ignore docker artifacts
+**/docker-compose.*
+.dockerignore
+
+## Ignore generated code coverage files
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+# Ignore secrets (add your secret.json files here)
+**/appsettings.Development.json
+**/appsettings.Local.json
